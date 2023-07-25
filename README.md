@@ -4,7 +4,7 @@
 ## Developed with
 
 - [![Nextjs][Nextjs]][Nextjs-url]
-- [![Vercel][Vercel]][VercelStorage-url]
+- [![Vercel][Vercel]][Vercel-url]
 - [![Tailwind][Tailwind]][Tailwind-url]
 
 [Nextjs]:
