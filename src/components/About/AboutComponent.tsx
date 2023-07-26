@@ -8,13 +8,11 @@ const AboutComponent = () => {
       <div className="space-y-8">
         <p>
           Hello everyone! Welcome to my developer portfolio presentation. I am
-          Samuel. As a dedicated developer, I&apos;ve ventured into the exciting
-          world of coding, and this website is a showcase of my journey.
-        </p>
-        <p>
-          From crafting elegant websites with HTML, CSS, and JavaScript to
-          building robust applications with Node, Java, and more, I&apos;ve
-          honed my skills across various technologies.
+          Samuel. As a developer, I discovered my passion for programming during
+          college and my first freelance projects. Since then, I&apos;ve been on
+          an exciting journey of exploration and growth, immersing myself in
+          various technologies to stay ahead in the ever-changing tech
+          landscape.
         </p>
         <p>
           Today, I am excited to share my journey, stack, and expertise with

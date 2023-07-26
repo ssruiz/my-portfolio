@@ -1,10 +1,8 @@
-import { Icon } from '../Icons';
-import AnimateComponent, {
-  AnimateComponentProps,
-} from '../commons/InViewComponent';
+import { Icon, IconConf } from '../Icons';
+import AnimateComponent from '../commons/InViewComponent';
 
 interface Props {
-  icon: Icon;
+  iConfiguracion: IconConf;
   size: number;
   delay: number;
 }
@@ -20,12 +18,14 @@ const defaultAnimationProps = {
   noInViewState: 'hidden',
 };
 
-const StackIcons: React.FC<Props> = ({ icon: Icon, size, delay }) => {
-  return (
-    <AnimateComponent {...defaultAnimationProps} delay={delay} once={true}>
-      <Icon size={size} className={'hover:text-teal-500 transition-colors'} />
-    </AnimateComponent>
-  );
-};
+const StackIcons: React.FC<Props> = ({
+  iConfiguracion: { icon: Icon, color },
+  size,
+  delay,
+}) => (
+  <AnimateComponent {...defaultAnimationProps} delay={delay} once={true}>
+    <Icon size={size} color={color} />
+  </AnimateComponent>
+);
 
 export default StackIcons;
