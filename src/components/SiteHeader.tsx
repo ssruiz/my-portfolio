@@ -19,14 +19,18 @@ const SiteHeader = () => {
       </div>
 
       <div className="flex gap-2 mt-5">
-        <AiFillGithub
-          className="cursor-pointer hover:opacity-70 transition-all"
-          size={30}
-        />
-        <AiFillLinkedin
-          className="cursor-pointer hover:opacity-70 transition-all "
-          size={30}
-        />
+        <Link href="https://github.com/ssruiz" target="_blank">
+          <AiFillGithub
+            className="cursor-pointer hover:opacity-70 transition-all"
+            size={30}
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/in/ssruiz6/" target="_blank">
+          <AiFillLinkedin
+            className="cursor-pointer hover:opacity-70 transition-all "
+            size={30}
+          />
+        </Link>
       </div>
 
       <Navbar />

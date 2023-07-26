@@ -4,7 +4,11 @@ import StackIcons from './StackIcons';
 
 const StackComponent = () => {
   return (
-    <section id="stack" className="text-white scroll-mt-16" aria-label="About">
+    <section
+      id="stack"
+      className="text-white scroll-mt-16 mt-32"
+      aria-label="About"
+    >
       <SectionHeader title="My stack" />
 
       <div className="p-6 text-center">
