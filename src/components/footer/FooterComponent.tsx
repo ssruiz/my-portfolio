@@ -4,7 +4,7 @@ const FooterComponent = () => {
   return (
     <footer
       id="footer"
-      className="text-white rounded-md space-y-2 py-6"
+      className="text-white rounded-md space-y-2 py-6 mt-16"
       aria-label="About"
     >
       <p className="text-xs text-slate-500">

@@ -10,7 +10,7 @@ interface Props {
 }
 
 const NavbarItem: React.FC<Props> = ({ sectionId, title }) => {
-  const activeId = useScrollSpy(['about', 'experiences', 'stack'], 300);
+  const activeId = useScrollSpy(['about', 'experiences', 'stack'], 500);
   return (
     <Link
       href={`#${sectionId}`}

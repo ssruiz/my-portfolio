@@ -2,7 +2,7 @@ import SectionHeader from '../commons/SectionHeader';
 
 const AboutComponent = () => {
   return (
-    <section id="about" className="text-white scroll-mt-16" aria-label="About">
+    <section id="about" className="text-white scroll-mt-24" aria-label="About">
       <SectionHeader title="About me" />
 
       <div className="space-y-8">

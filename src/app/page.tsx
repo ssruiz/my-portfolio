@@ -11,7 +11,7 @@ export default function Home() {
 
       {/* <div className=" bg-center bg-cover w-full aspect-960/300 "></div> */}
 
-      <main className="lg:w-9/12 lg:pt-24 ">
+      <main className="lg:w-9/12 lg:pt-24">
         <AboutComponent />
         <ExperienceComponent />
         <StackComponent />
