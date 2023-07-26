@@ -18,7 +18,7 @@ const FooterComponent = () => {
         </Link>
       </p>
       <p className="text-xs text-slate-500">
-        Design inspired in{' '}
+        Design inspired by{' '}
         <Link href="https://brittanychiang.com/" target="_blank">
           <span className="cursor-pointer hover:text-teal-500">
             Brittany Chiang&apos;s page 💚{' '}

@@ -17,13 +17,13 @@ const ExperienceDetail: React.FC<Experience> = ({
     <Link href={link || ''} target={link ? '_blank' : '_self'}>
       <div className="p-6 group hover:bg-black/20 rounded-md transition-all cursor-pointer">
         <div className="relative grid pb-1 transition-all grid-cols-8 sm:gap-8 gap-4 lg:hover:!opacity-100">
-          <div className="col-span-3 flex flex-col items-center relative">
-            <p className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+          <div className="col-span-4 lg:col-span-3 flex flex-col items-center relative">
+            <p className="z-10 mb-2 mt-1 text-xs font-normal uppercase tracking-wide text-slate-500 sm:col-span-2">
               {startYear} - {endYear}
             </p>
             <AnimatedLine />
           </div>
-          <div className="col-span-5">
+          <div className="col-span-4 lg:col-span-5">
             <h3 className="relative">
               <div className="flex gap-1 items-center">
                 {title}
