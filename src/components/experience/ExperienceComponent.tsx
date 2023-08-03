@@ -5,7 +5,7 @@ import ExperienceDetail from './ExperienceDetail';
 
 const ExperienceComponent = () => {
   return (
-    <section id="experiences" className="text-white" aria-label="About">
+    <section id="experiences" className="text-white mt-5" aria-label="About">
       <SectionHeader title="Experience" />
       {experiences.map((experience) => (
         <ExperienceDetail key={experience.id} {...experience} />
