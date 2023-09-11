@@ -12,10 +12,32 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    id: '6',
+    brief: ``,
+    company: 'Willdom',
+    endYear: 'Present',
+    startYear: '09/2023',
+    title: 'Developer',
+    project: 'Project: TRX',
+    stack: ['React', 'NextJS', 'Firebase'],
+    link: 'https://www.trxtraining.com/',
+  },
+  {
+    id: '5',
+    brief: `Helped in MUV's new brading project.`,
+    company: 'Willdom',
+    endYear: '09/2023',
+    startYear: '08/2023',
+    title: 'Developer',
+    project: 'Project: MUV - Driver app',
+    stack: ['React Native'],
+    link: 'https://muv-app.co/',
+  },
+  {
     id: '0',
     brief: `Little project for Willdom that helps to keep tracking their assets. I configured the project, dev enviromnment and helped in deployment tasks.`,
     company: 'Willdom',
-    endYear: 'Present',
+    endYear: '08/2023',
     startYear: '06/2023',
     title: 'Developer',
     project: 'Project: Assets Control',
